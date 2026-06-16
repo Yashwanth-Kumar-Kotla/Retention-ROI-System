@@ -1,0 +1,38 @@
+# Virtual environments
+myenv/
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Environment / secrets
+.env
+.env.*
+
+# Data and model artifacts (large/binary - keep out of git)
+data/*.csv
+models/*.pkl
+models/*.csv
+
+# Logs
+*.log
